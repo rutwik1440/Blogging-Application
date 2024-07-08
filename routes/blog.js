@@ -30,7 +30,7 @@ router.post("/", upload.single('converImage'), async (req, res) => {
         title,
         body,
         createBy: req.user._id,
-        coverImage: `/uploads/${req.file.filename}`,
+        coverImageURL: `/uploads/${req.file.filename}`,
     })
     return res.redirect(`/blog/${blog._id}`);
 });
