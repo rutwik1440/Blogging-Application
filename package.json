@@ -1,0 +1,28 @@
+{
+  "name": "blogging-application",
+  "version": "1.0.0",
+  "description": "This is Blogging Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutwik1440/Blogging-Application.git"
+  },
+  "author": "Rutwik More",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rutwik1440/Blogging-Application/issues"
+  },
+  "homepage": "https://github.com/rutwik1440/Blogging-Application#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
